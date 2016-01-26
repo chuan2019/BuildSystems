@@ -1,0 +1,12 @@
+defines = 
+includes = -I../../../../..
+cflags = 
+cflags_c = 
+cflags_cc = 
+
+build obj/gyp00.gyp00.o: cxx ../../../../gyp00.cpp
+
+ldflags = 
+libs = 
+build gyp00: link obj/gyp00.gyp00.o
+  ld = $ldxx
