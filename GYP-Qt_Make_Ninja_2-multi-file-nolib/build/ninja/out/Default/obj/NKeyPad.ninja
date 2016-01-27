@@ -1,0 +1,22 @@
+defines = -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
+includes = '-I/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64' $
+    -I../../../.. -I/usr/include/qt5 -I/usr/include/qt5/QtWidgets $
+    -I/usr/include/qt5/QtGui -I/usr/include/qt5/QtCore $
+    -I../../../../include -I../../../../src
+cflags = -m64 -pipe -O2 -Wall -W -D_REENTRANT -fPIE
+cflags_c = 
+cflags_cc = 
+
+build obj/src/NKeyPad.main.o: cxx ../../../../src/main.cpp
+build obj/include/NKeyPad.numerickeypad.o: cxx $
+    ../../../../include/numerickeypad.cpp
+build obj/include/NKeyPad.moc_numerickeypad.o: cxx $
+    ../../../../include/moc_numerickeypad.cpp
+
+ldflags = -m64 -O1
+libs = -L/usr/X11R6/lib64 -L/usr/lib/x86_64-linux-gnu -lQt5Widgets -lQt5Gui $
+    -lQt5Core -lGL -lpthread
+build NKeyPad: link obj/src/NKeyPad.main.o $
+    obj/include/NKeyPad.numerickeypad.o $
+    obj/include/NKeyPad.moc_numerickeypad.o
+  ld = $ldxx

@@ -1,0 +1,5 @@
+# ninja log v5
+0	1670	0	obj/src/NKeyPad.main.o	799efc4c41041b4d
+0	1742	0	obj/include/NKeyPad.moc_numerickeypad.o	470cb52acf919
+0	2029	0	obj/include/NKeyPad.numerickeypad.o	1867a6221fae1f43
+2029	2306	0	NKeyPad	8dd79797e327015d
