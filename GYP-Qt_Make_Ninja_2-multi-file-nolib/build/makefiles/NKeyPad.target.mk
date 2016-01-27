@@ -35,8 +35,8 @@ INCS_Default := \
 	-I$(srcdir)/src
 
 OBJS := \
-	$(obj).target/$(TARGET)/src/main.o \
 	$(obj).target/$(TARGET)/include/numerickeypad.o \
+	$(obj).target/$(TARGET)/src/main.o \
 	$(obj).target/$(TARGET)/include/moc_numerickeypad.o
 
 # Add to the list of files we specially track dependencies for.

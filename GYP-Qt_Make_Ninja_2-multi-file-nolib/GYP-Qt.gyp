@@ -17,14 +17,15 @@
 			'<(DEPTH)/include',
 			'<(DEPTH)/src',
 		],
-		'sources': [
-			'src/main.cpp',
-			'include/numerickeypad.cpp',
-			'include/numerickeypad.h',
-		# [Chuan Zhang, 01/26/2016] before using gyp to produce build files, 
-		# always ensure the moc file is generated from the corresponding 
-		# header file using moc
-			'include/moc_numerickeypad.cpp', 
+		'conditions': [
+			['OS == "linux"', {
+				'sources': [
+					'include/numerickeypad.cpp',
+					'include/numerickeypad.h',
+					'src/main.cpp',
+					'<!(moc include/numerickeypad.h -o include/moc_numerickeypad.cpp && echo include/moc_numerickeypad.cpp)',
+				],
+			}],
 		],
 	}],
 }
