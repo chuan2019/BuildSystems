@@ -317,7 +317,7 @@ endif
 
 quiet_cmd_regen_makefile = ACTION Regenerating $@
 cmd_regen_makefile = cd $(srcdir); /usr/bin/gyp -fmake --ignore-environment "--toplevel-dir=." "--depth=." "--generator-output=build/makefiles" GYP-Qt.gyp
-Makefile: $(srcdir)/GYP-Qt.gyp $(srcdir)/../QYP-Qt_common/qt_common.gypi
+Makefile: $(srcdir)/../GYP-Qt_common/qt_common.gypi $(srcdir)/GYP-Qt.gyp
 	$(call do_cmd,regen_makefile)
 
 # "all" is a concatenation of the "all" targets from all the included

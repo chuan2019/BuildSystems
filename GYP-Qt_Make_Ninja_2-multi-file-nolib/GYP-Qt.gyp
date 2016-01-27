@@ -6,7 +6,7 @@
 
 {
 	'includes': [
-		'../QYP-Qt_common/qt_common.gypi',
+		'../GYP-Qt_common/qt_common.gypi',
 	],
 	'targets': [
 	{

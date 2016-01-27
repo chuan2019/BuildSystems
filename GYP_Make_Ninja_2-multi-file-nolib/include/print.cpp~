@@ -1,6 +1,0 @@
-#include "print.h"
-
-void Print::operator()(std::string &str)
-{
-	std::cout << str << std::endl;
-}
