@@ -1,0 +1,4 @@
+# ninja log v5
+0	249	0	obj/src/hello-gyp.main.o	cf0a864a27b90870
+0	254	0	obj/include/hello-gyp.print.o	1a46bc74075dc141
+254	350	0	hello-gyp	55895956a213df

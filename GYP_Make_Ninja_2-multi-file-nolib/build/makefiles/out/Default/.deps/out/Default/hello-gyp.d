@@ -1,0 +1,1 @@
+cmd_out/Default/hello-gyp := flock out/Default/linker.lock g++   -o out/Default/hello-gyp -Wl,--start-group out/Default/obj.target/hello-gyp/src/main.o out/Default/obj.target/hello-gyp/include/print.o -Wl,--end-group 
