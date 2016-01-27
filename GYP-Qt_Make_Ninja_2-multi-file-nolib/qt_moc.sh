@@ -8,7 +8,7 @@
 # http://stackoverflow.com/questions/10919082/building-with-moc-files-using
 # -gyp-instead-of-qmake
 #####################################################################################
-MOC="/home/chuan/Qt/5.5/gcc_64/bin/moc"
+MOC="/usr/bin/moc"
 SRC_DIR="include"
 
 $MOC $SRC_DIR/numerickeypad.h -o  $SRC_DIR/moc_numerickeypad.cpp
