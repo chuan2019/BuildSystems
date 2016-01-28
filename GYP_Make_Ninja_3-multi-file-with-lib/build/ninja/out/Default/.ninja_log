@@ -1,8 +1,8 @@
 # ninja log v5
-0	338	0	obj/src/hello-gyp.main.o	2cd60c62a76af35f
-0	366	0	obj/include/hello-shared.print.o	13ae36769d9d53de
-0	428	0	obj/include/hello-static.print.o	b5f8fe5cdd7b1d3c
-428	433	0	obj/libhello-static.a	ddc09855a84734b2
-366	476	0	lib/libhello-shared.so	d5150aff1808b5ac
-366	476	0	lib/libhello-shared.so.TOC	d5150aff1808b5ac
-476	557	0	hello-gyp	8ebbec88c3d6de8c
+0	264	0	obj/src/hello-gyp.main.o	2cd60c62a76af35f
+0	351	0	obj/include/hello-static.print.o	b5f8fe5cdd7b1d3c
+351	355	0	obj/libhello-static.a	ddc09855a84734b2
+0	422	0	obj/include/hello-shared.print.o	13ae36769d9d53de
+355	445	0	hello-gyp	8ebbec88c3d6de8c
+445	535	0	lib/libhello-shared.so	d5150aff1808b5ac
+445	535	0	lib/libhello-shared.so.TOC	d5150aff1808b5ac

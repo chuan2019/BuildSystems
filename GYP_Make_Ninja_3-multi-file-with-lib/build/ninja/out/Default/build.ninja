@@ -56,9 +56,9 @@ rule copy
   command = ln -f $in $out 2>/dev/null || (rm -rf $out && cp -af $in $out)
   description = COPY $in $out
 
+subninja obj/hello-shared.ninja
 subninja obj/hello-static.ninja
 subninja obj/hello-gyp.ninja
-subninja obj/hello-shared.ninja
 
 # Short names for targets.
 build hello-static: phony obj/libhello-static.a

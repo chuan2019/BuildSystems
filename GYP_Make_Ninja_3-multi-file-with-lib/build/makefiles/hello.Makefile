@@ -3,4 +3,4 @@
 export builddir_name ?= build/makefiles/./out
 .PHONY: all
 all:
-	$(MAKE) hello-static hello-gyp hello-shared
+	$(MAKE) hello-shared hello-static hello-gyp
