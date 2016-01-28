@@ -1,0 +1,1 @@
+cmd_out/Default/obj.target/libhello-shared.so := flock out/Default/linker.lock g++ -shared   -Wl,-soname=libhello-shared.so -o out/Default/obj.target/libhello-shared.so -Wl,--whole-archive out/Default/obj.target/hello-shared/include/print.o -Wl,--no-whole-archive 

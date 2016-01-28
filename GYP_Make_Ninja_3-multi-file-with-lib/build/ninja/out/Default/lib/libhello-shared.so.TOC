@@ -1,0 +1,19 @@
+ 0x000000000000000e (SONAME)             Library soname: [libhello-shared.so]
+__bss_start B
+__cxa_atexit U
+__cxa_finalize w
+_edata D
+_end B
+_fini T
+__gmon_start__ w
+_init T
+_ITM_deregisterTMCloneTable w
+_ITM_registerTMCloneTable w
+_Jv_RegisterClasses w
+_ZN5PrintclERKSs T
+_ZNSolsEPFRSoS_E U
+_ZNSt8ios_base4InitC1Ev U
+_ZNSt8ios_base4InitD1Ev U
+_ZSt4cout U
+_ZSt4endlIcSt11char_traitsIcEERSt13basic_ostreamIT_T0_ES6_ U
+_ZStlsIcSt11char_traitsIcESaIcEERSt13basic_ostreamIT_T0_ES7_RKSbIS4_S5_T1_E U

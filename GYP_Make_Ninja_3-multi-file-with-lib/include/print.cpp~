@@ -1,0 +1,7 @@
+#include "print.h"
+
+void Print::operator()(const std::string &str)
+{
+	std::cout << "This is gyp meta-build system!" << std::endl;
+	std::cout << str << std::endl;
+}

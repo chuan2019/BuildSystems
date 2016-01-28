@@ -1,0 +1,15 @@
+defines = 
+includes = -I../../../../include
+cflags = -fPIC
+cflags_c = 
+cflags_cc = 
+
+build obj/include/hello-shared.print.o: cxx ../../../../include/print.cpp
+
+ldflags = 
+libs = 
+build lib/libhello-shared.so lib/libhello-shared.so.TOC: solink $
+    obj/include/hello-shared.print.o
+  ld = $ldxx
+  soname = libhello-shared.so
+  lib = lib/libhello-shared.so

@@ -1,0 +1,9 @@
+defines = 
+includes = -I../../../../include
+cflags = 
+cflags_c = 
+cflags_cc = 
+
+build obj/include/hello-static.print.o: cxx ../../../../include/print.cpp
+
+build obj/libhello-static.a: alink_thin obj/include/hello-static.print.o

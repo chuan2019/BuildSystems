@@ -1,0 +1,12 @@
+defines = 
+includes = -I../../../.. -I../../../../include
+cflags = 
+cflags_c = 
+cflags_cc = 
+
+build obj/src/hello-gyp.main.o: cxx ../../../../src/main.cpp
+
+ldflags = 
+libs = 
+build hello-gyp: link obj/src/hello-gyp.main.o obj/libhello-static.a
+  ld = $ldxx
