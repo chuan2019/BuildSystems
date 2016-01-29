@@ -73,7 +73,9 @@ out/Default/obj.target/NKeyPad/src/main.o: ../../src/main.cpp \
  /usr/include/qt5/QtGui/qtextformat.h /usr/include/qt5/QtGui/qpen.h \
  /usr/include/qt5/QtGui/qtextoption.h \
  /usr/include/qt5/QtCore/QSignalMapper \
- /usr/include/qt5/QtCore/qsignalmapper.h
+ /usr/include/qt5/QtCore/qsignalmapper.h \
+ /usr/include/qt5/QtCore/QScopedPointer \
+ /usr/include/qt5/QtCore/qscopedpointer.h
 ../../src/main.cpp:
 /usr/include/qt5/QtWidgets/QApplication:
 /usr/include/qt5/QtWidgets/qapplication.h:
@@ -177,3 +179,5 @@ out/Default/obj.target/NKeyPad/src/main.o: ../../src/main.cpp \
 /usr/include/qt5/QtGui/qtextoption.h:
 /usr/include/qt5/QtCore/QSignalMapper:
 /usr/include/qt5/QtCore/qsignalmapper.h:
+/usr/include/qt5/QtCore/QScopedPointer:
+/usr/include/qt5/QtCore/qscopedpointer.h:

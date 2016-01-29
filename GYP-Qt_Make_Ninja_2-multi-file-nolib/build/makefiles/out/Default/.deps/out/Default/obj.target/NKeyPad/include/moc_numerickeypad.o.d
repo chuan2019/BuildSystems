@@ -65,7 +65,9 @@ out/Default/obj.target/NKeyPad/include/moc_numerickeypad.o: \
  /usr/include/qt5/QtCore/qmap.h /usr/include/qt5/QtGui/qpen.h \
  /usr/include/qt5/QtGui/qtextoption.h \
  /usr/include/qt5/QtCore/QSignalMapper \
- /usr/include/qt5/QtCore/qsignalmapper.h
+ /usr/include/qt5/QtCore/qsignalmapper.h \
+ /usr/include/qt5/QtCore/QScopedPointer \
+ /usr/include/qt5/QtCore/qscopedpointer.h
 ../../include/moc_numerickeypad.cpp:
 ../../include/numerickeypad.h:
 /usr/include/qt5/QtWidgets/QGridLayout:
@@ -161,3 +163,5 @@ out/Default/obj.target/NKeyPad/include/moc_numerickeypad.o: \
 /usr/include/qt5/QtGui/qtextoption.h:
 /usr/include/qt5/QtCore/QSignalMapper:
 /usr/include/qt5/QtCore/qsignalmapper.h:
+/usr/include/qt5/QtCore/QScopedPointer:
+/usr/include/qt5/QtCore/qscopedpointer.h:

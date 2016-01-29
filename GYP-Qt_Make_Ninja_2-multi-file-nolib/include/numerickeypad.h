@@ -3,6 +3,7 @@
 #include <QPushButton>
 #include <QLineEdit>
 #include <QSignalMapper>
+#include <QScopedPointer>
 
 class NumericKeypad : public QWidget
 {
@@ -25,24 +26,24 @@ private slots:
 private:
 	QString 	m_text;
 
-	QLineEdit 	*m_lineEdit;
-	QGridLayout *layout;
+	QScopedPointer<QLineEdit> m_lineEdit;
+	QScopedPointer<QGridLayout> layout;
 
-	QPushButton *button0;
-	QPushButton *button1;
-	QPushButton *button2;
-	QPushButton *button3;
-	QPushButton *button4;
-	QPushButton *button5;
-	QPushButton *button6;
-	QPushButton *button7;
-	QPushButton *button8;
-	QPushButton *button9;
+	QScopedPointer<QPushButton> button0;
+	QScopedPointer<QPushButton> button1;
+	QScopedPointer<QPushButton> button2;
+	QScopedPointer<QPushButton> button3;
+	QScopedPointer<QPushButton> button4;
+	QScopedPointer<QPushButton> button5;
+	QScopedPointer<QPushButton> button6;
+	QScopedPointer<QPushButton> button7;
+	QScopedPointer<QPushButton> button8;
+	QScopedPointer<QPushButton> button9;
 	
-	QPushButton *buttonDot;
-	QPushButton *buttonClear;
+	QScopedPointer<QPushButton> buttonDot;
+	QScopedPointer<QPushButton> buttonClear;
 
-	QSignalMapper *mapper;
+	QScopedPointer<QSignalMapper> mapper;
 };
 
 
