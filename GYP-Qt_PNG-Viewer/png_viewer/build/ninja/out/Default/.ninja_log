@@ -1,0 +1,5 @@
+# ninja log v5
+1	3732	0	obj/png_viewer.moc_png_viewer.o	f1d7a48b1031d16a
+0	4633	0	obj/png_viewer.png_viewer.o	b2a153a65fad7a0d
+0	4756	0	obj/png_viewer.main.o	c4f04d711fe21855
+4756	5059	0	png_viewer	859f1785df1cf92d
